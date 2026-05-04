@@ -56,16 +56,14 @@ async function crearComentario(publicacionId, nombre, email, contenido) {
   }
 }
 
-// --- Ejecución de las funciones ---
 
-// Ejemplo de Solicitud 4
+
 crearPublicacion(
   "Mi experiencia con APIs",
   "Aprender a usar el método POST es fundamental para el desarrollo web.",
   1
 );
 
-// Ejemplo de Solicitud 5
 crearComentario(
   1,
   "Guillermo",
